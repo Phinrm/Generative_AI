@@ -1,0 +1,7 @@
+jac-env/
+Include/
+Lib/
+Scripts/
+etc/
+share/
+pyvenv.cfg
