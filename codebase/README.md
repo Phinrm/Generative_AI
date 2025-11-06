@@ -45,14 +45,19 @@ cp .env.template .env
 cd BE
 jac serve main.jac
 ```
+2. Start the backend server:
+```bash
+cd BE
+uvicorn api_server:app --host 127.0.0.1 --port 8001 --reload
+```
 
-2. Start the Streamlit frontend (in a new terminal):
+3. Start the Streamlit frontend (in a new terminal):
 ```bash
 cd FE
 streamlit run app.py
 ```
 
-3. Open your browser to http://localhost:8501
+4. Open your browser to http://localhost:8501
 
 ## Features
 
