@@ -1,6 +1,0 @@
-byllm
-jac-cloud
-python-dotenv
-gitpython
-tree_sitter
-pygments
